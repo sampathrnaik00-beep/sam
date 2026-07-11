@@ -91,7 +91,7 @@ body{
 }
 
 /* BIG SCALE: Size rules specifically for load2_circle-crop.png */
-.load2_circle-crop-img {
+.load-img {
   width: 50% !important;
   min-width: 250px !important;
   max-width: 360px !important;
@@ -212,6 +212,26 @@ button:hover{
 .message-card p{
   line-height: 1.7;
   color: #ff4fa0; 
+}
+
+.message-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-card p{
+  width: 100%;
+  text-align: justify;
+}
+
+.birthday-wish{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Pacifico', cursive;
+  font-size: calc(1.2rem + 0.8vw);
+  color: #ff4fa0;
 }
 
 /* BIG SCALE: FINAL OVERVIEW IMAGE */
