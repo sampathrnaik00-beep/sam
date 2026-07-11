@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // STEP A: Prepare the Intro Page State right away
     if (textElement) {
-        textElement.innerHTML = "Click anywhere to open Sarah's Birthday Box! ✨🎁";
+        textElement.innerHTML = "Click anywhere to open Vidya's Birthday Box! ✨🎁";
     }
     if (imgElement) {
-        imgElement.src = "load2_circle-crop.png"; 
+        imgElement.src = "load.png"; 
         // Dynamically applies the larger size class for the cropped circle image
-        imgElement.className = "kitty load2_circle-crop-img";
+        imgElement.className = "kitty load-img";
     }
 
     // STEP B: The exact millisecond she clicks this intro screen...
